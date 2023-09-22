@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+}
+
+#videoFrame {
+  width: 640px;
+  height: 480px;
+  border: 1px solid black;
+}
